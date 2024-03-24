@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <main
+      id="main"
+      class="bg-slate-200 h-screen w-screen flex items-center justify-center font-Jakarta"
+    >
+      <div class="bg-white h-[700px] w-[650px] rounded-xl px-8 py-6">
+        <section class="flex items-center justify-between mb-5" id="header">
+          <div class="flex items-center">
+            <h1 class=" text-2xl font-bold">Notifications</h1>
+            <div
+              class="bg-blue-800 w-6 h-6 ms-3 rounded-lg text-white text-center font-bold"
+            >
+              3
+            </div>
+          </div>
+          <a href="#" class="hover:text-blue-800 text-sm" id="markAllAsRead">Mark all as read</a>
+        </section>
+        <section id="body">
+          <div class="chat-box w-auto h-16 bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-mark-webber.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" >
+                  <span class=" font-bold hover:text-blue-900 me-1">Mark Webber</span>
+                  <span class="text-neutral-600 me-1">
+                    reacted to your recent post
+                  </span>
+                  <span class=" font-bold me-1 hover:text-blue-900">My first tournament today!</span>
+                  <div class="bg-red-600 rounded-full w-2 h-2 hidden  "></div>
+                </a>
+              </div>
+              <p class="text-neutral-600 text-sm">1m ago</p>
+            </div>
+          </div>
+
+          <div class="chat-box w-auto h-16 bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-angela-gray.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center ">
+                <a href="#" >
+                  <span class=" font-bold me-1 hover:text-blue-900">Angela Gray</span>
+                  <span class="text-neutral-600 me-1">
+                    followed you
+                  </span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot"></div>
+                </div>
+                </a>
+                
+              <p class="text-neutral-600">5m ago</p>
+            </div>
+          </div>
+
+          <div class="chat-box w-auto h-16 bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-jacob-thompson.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" >
+                  <span class=" font-bold me-1 hover:text-blue-900">Jacob Thompson</span>
+                  <span class="text-neutral-600 me-1">
+                    has joined your group
+                  </span>
+                  <span  class=" font-bold me-1 hover:text-blue-900">Chess Club</span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot"></div>
+                </a>
+                
+              </div>
+              <p class="text-neutral-600 text-sm">1 day ago</p>
+            </div>
+          </div>
+
+          <div class="chat-box w-auto h-auto bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" >
+                  <span class=" font-bold me-1 hover:text-blue-900">Rizky Hasanuddin</span>
+                  <span class="text-neutral-600 me-1">
+                    sent you a private message
+                  </span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot "></div>
+                </a>
+                
+              </div>
+              <p class="text-neutral-600 text-sm mb-2">1 day ago</p>
+              <div class="w-auto h-auto bg-white px-4 text-neutral-600 py-2 m rounded-md hover:bg-neutral-900 hover:text-white">
+                Hello, thanks for setting up the Chess Club.I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+            </div>
+            </div>
+          </div>
+            
+          <div class="chat-box w-auto h-16 bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-kimberly-smith.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" >
+                  <span class=" font-bold me-1 hover:text-blue-900">Kimberly Smith</span>
+                  <span class="text-neutral-600 me-1">
+                    commented on your picture
+                  </span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot"></div>
+                </div>
+                </a>
+              <p class="text-neutral-600 text-sm ">1 week ago</p>
+            </div>
+            <img
+              src="./notifications-page-main/assets/images/image-chess.webp"
+              class="rounded-md ms-auto w-10 h-10"
+              alt=""
+            />
+          </div>
+
+          <div class="chat-box w-auto h-auto bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-nathan-peterson.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" class="">
+                  <span class=" font-bold me-1 hover:text-blue-900">Nathan Peterson</span>
+                  <span class="text-neutral-600 me-1">
+                    reacted to your recent post
+                  </span>
+                  <span class=" font-bold me-1 hover:text-blue-900">5 end-game strategies to increase your win rate</span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot"></div>
+                </a>
+              </div>
+              <p class="text-neutral-600 text-sm ">2 weeks ago</p>
+            </div>
+          </div>
+
+          <div class="chat-box w-auto h-auto bg-blue-100 p-3 rounded-lg flex mb-2">
+            <img
+              src="./notifications-page-main/assets/images/avatar-anna-kim.webp"
+              class="rounded-full me-4 w-10 h-10"
+              alt=""
+            />
+            <div class=" text-sm ">
+              <div class="flex items-center">
+                <a href="#" class="">
+                  <span class=" font-bold me-1 hover:text-blue-900">Anna Kim</span>
+                  <span class="text-neutral-600 me-1">
+                    left the group
+                  </span>
+                  <span class=" font-bold me-1 hover:text-blue-900">Chess Club</span>
+                  <div class="bg-red-600 mt-1 rounded-full w-2 h-2 inline-block redDot"></div>
+                </a>
+              </div>
+              <p class="text-neutral-600 text-sm ">2 weeks ago</p>
+            </div>
+          </div>
+          
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="./src/Javascript/main.js"></script>
+  </body>
+</html>
